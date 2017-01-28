@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Game types:</strong>
+  <%= @game.game_types %>
+</p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @game.users %>
+</p>
+
+<p>
+  <strong>Leagues:</strong>
+  <%= @game.leagues %>
+</p>
+
+<p>
+  <strong>Weeks:</strong>
+  <%= @game.weeks %>
+</p>
+
+<p>
+  <strong>Teams:</strong>
+  <%= @game.teams %>
+</p>
+
+<p>
+  <strong>Start number:</strong>
+  <%= @game.start_number %>
+</p>
+
+<p>
+  <strong>End number:</strong>
+  <%= @game.end_number %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %> |
+<%= link_to "Log Out", destroy_user_session_path, method: :delete %>
