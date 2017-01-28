@@ -1,4 +1,5 @@
 config/database.yml
+log/development.log 
 
 # Compiled source #
 ###################
