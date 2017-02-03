@@ -11,3 +11,11 @@ LOG:  database system was shut down at 2017-01-28 12:01:33 CST
 LOG:  MultiXact member wraparound protections are now enabled
 LOG:  autovacuum launcher started
 LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher shutting down
+LOG:  received smart shutdown request
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2017-01-28 13:26:51 CST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections

@@ -1,5 +1,8 @@
 config/database.yml
 log/development.log 
+tmp/pids/*
+tmp/cache/*
+logfile
 
 # Compiled source #
 ###################
