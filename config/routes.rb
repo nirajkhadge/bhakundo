@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :memberships
   root to: "leagues#index"	
   resources :weeks
   resources :games
